@@ -1,0 +1,10 @@
+﻿<DataGrid x:Class="DataGridHorizontal.DataGridCustom"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:DataGridHorizontal"
+             x:Name="dg"
+             HeadersVisibility="None" SelectionUnit="Cell" CanSelectMultipleItems="False" AutoGenerateColumns="False" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Disabled" Background="Transparent" BorderThickness="2"
+             VirtualizingStackPanel.IsVirtualizing="True" EnableRowVirtualization="True" EnableColumnVirtualization="False" >
+</DataGrid>
